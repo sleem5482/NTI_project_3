@@ -32,8 +32,8 @@ position: absolute;
 left: -100px;
 top: 60%;
 }
-.about h1::after ,.service h1::after, .work h1::after ,
-.Creative h1::after,.pricing h1::after ,.Blog h1::after,.client h1::after {
+.about h1::after ,.help h1::after, .pricing h1::after,.service h1::after, .work h1::after ,
+.Creative h1::after ,.Blog h1::after,.client h1::after {
     content: "";
     width: 80px ;
 height: 2px;
@@ -42,6 +42,7 @@ position: absolute;
 right: -100px;
 top: 60%;
 }
+
 .about span::before ,.service span::before ,.work span::before,
 .Creative span::before ,.pricing h1 span::before  {
     content: "";
